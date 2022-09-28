@@ -13,3 +13,10 @@ header {
   display: flex;
   background-color: #279989;
 }
+main section:first-child {
+  display: flex;
+  background-color: #5fa789;
+}
+section ~ section {
+  background-color: #ffc845;
+}
