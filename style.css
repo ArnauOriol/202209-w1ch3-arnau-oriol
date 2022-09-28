@@ -10,9 +10,28 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+p {
+  color: #fff;
+  padding: 5px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
 header {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #279989;
+  color: #fff;
+  font-size: 0.75rem;
+}
+nav {
+  width: 40%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
 }
 main section:first-child {
   display: flex;
@@ -26,4 +45,10 @@ section ~ section {
 .space {
   display: flex;
   justify-content: space-between;
+}
+i {
+  padding: 5px;
+}
+[type="checkbox"] {
+  padding: 5px;
 }
