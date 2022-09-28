@@ -6,6 +6,9 @@ html {
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
 }
+body {
+  background-color: #ffc845;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -17,6 +20,7 @@ p {
 .menu {
   display: flex;
   justify-content: space-around;
+  font-size: 0.75rem;
 }
 header {
   display: flex;
@@ -50,5 +54,15 @@ i {
   padding: 5px;
 }
 [type="checkbox"] {
-  padding: 5px;
+  margin: 7px;
+}
+.total {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.25rem;
+}
+hr {
+  height: 1px;
+  background-color: #000;
+  border: none;
 }
