@@ -6,3 +6,10 @@ html {
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
 }
+ul {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  background-color: #279989;
+}
