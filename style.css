@@ -20,6 +20,7 @@ p {
 .menu {
   display: flex;
   justify-content: space-around;
+  font-size: 0.75rem;
 }
 header {
   display: flex;
@@ -59,4 +60,9 @@ i {
   display: flex;
   justify-content: flex-end;
   font-size: 1.25rem;
+}
+hr {
+  height: 1px;
+  background-color: #000;
+  border: none;
 }
