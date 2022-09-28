@@ -6,3 +6,24 @@ html {
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+header {
+  display: flex;
+  background-color: #279989;
+}
+main section:first-child {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5fa789;
+}
+section ~ section {
+  padding: 5px;
+  background-color: #ffc845;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+}
