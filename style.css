@@ -15,8 +15,13 @@ header {
 }
 main section:first-child {
   display: flex;
+  justify-content: space-between;
   background-color: #5fa789;
 }
 section ~ section {
   background-color: #ffc845;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
 }
