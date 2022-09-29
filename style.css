@@ -62,6 +62,14 @@ h2 + form {
   content: " €";
   color: #000;
 }
+input + button {
+  border: 0;
+  height: 2rem;
+  width: 4.5rem;
+  color: #fff;
+  font-size: 00.75rem;
+  background-color: #279989;
+}
 .space {
   display: flex;
   justify-content: space-between;
