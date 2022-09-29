@@ -52,20 +52,29 @@ h2 + form {
   flex-direction: column;
   align-items: flex-start;
 }
+form > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+form > div > label {
+  display: flex;
+  flex-direction: column;
+}
 [name="name"],
 [name="price"] {
   border: 0;
   margin: 7px 0;
   height: 2rem;
 }
-[name="price"]::after {
-  content: " €";
-  color: #000;
+.€ {
+  align-self: center;
+  margin: 5px;
 }
-input + button {
+button.form {
   border: 0;
   height: 2rem;
-  width: 4.5rem;
+  width: 3.5rem;
   color: #fff;
   font-size: 00.75rem;
   background-color: #279989;

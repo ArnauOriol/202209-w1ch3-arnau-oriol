@@ -33,11 +33,16 @@
       <section>
         <h2>Añadir artículo</h2>
         <form>
-          <label for="name">Nombre:</label>
-          <input type="text" name="name" required />
-          <label for="price">Precio:</label>
-          <input type="text" name="price" />
-          <button type="submit">Añadir</button>
+          <div>
+            <label for="name"
+              >Nombre:<input type="text" name="name" required
+            /></label>
+          </div>
+          <div class="price">
+            <label for="price">Precio:<input type="text" name="price" /></label
+            ><span class="€">€</span>
+          </div>
+          <button type="submit" class="form">Añadir</button>
         </form>
       </section>
     </main>
